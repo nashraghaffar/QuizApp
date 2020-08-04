@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="main-hd">
+            <h1 class="quiz-hd">Quiz Application</h1>
+        </div>
+
+        <div class="question">
+            <p class="que1"> Question 1 </p>
+            <p class="que-hd">What is the name of the founder of Pakistan ? </p>
+        </div>
+
+        <button class="options" onclick="wrongAnswer1()" id="wA1" value="a1">
+           1. Allama Iqbal
+        </button>
+        <button class="options" onclick="wrongAnswer2()" id="wA2" value="a2">
+            2. Tipu Sultan
+        </button>
+        <button class="options" onclick="wrongAnswer3()" id="wA3" value="a3">
+            3. Liaquat Ali Khan
+        </button>
+        <button class="options" onclick="rightAnswer()" id="rA" value="a4">
+            4. Muhammad Ali Jinnah
+        </button>
+        <div>
+            <button class="next-btn"><a href="que2.html" class="next">Next Question</a> </button>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
