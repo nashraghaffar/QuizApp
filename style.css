@@ -7,7 +7,7 @@
     width: 300px;
     margin: 0 auto;
     margin-top: 30px;
-    background-color: #c5e3f7 ;
+    background-color: #bb9ad3 ;
     }
     
     .que1{
@@ -23,8 +23,8 @@
         width: 260px;
         height: 150px;
         margin-left: 20px;
-    border-bottom: 2px solid rgb(156, 156, 156);
-    border-right: 2px solid rgb(156, 156, 156);
+    border-bottom: 3px solid rgb(145, 145, 145);
+    border-right: 3px solid rgb(156, 156, 156);
     }
     
     .que-hd{
@@ -44,7 +44,8 @@
     .main-hd{
     border-bottom: 2px solid white;
         height: 80px;
-        background-color: #5499C7;
+        background-color: #69347f;
+        
         margin-top: 30px;
         /* margin-left: 32px; */
     }
@@ -78,18 +79,85 @@
     .next-btn{
         border-radius: 20px;
         margin-top: 23px;
-        margin-left: 70px;
+        margin-left: 30px;
         height: 40px;
-        width: 150px;
+        width: 100px;
     outline: none;
-    color: cornflowerblue;
+    color: purple;
+    font-weight: bold;
+    font-size: 12px;
+
+    }
+    
+    .next{
+        color: purple;
+text-decoration: none;
+    }
+    .back{
+        color: purple;
+text-decoration: none;
+    }
+
+    .back-btn{
+    float: left;
+
+        font-size: 12px;
+        border-radius: 20px;
+        margin-top: 23px;
+        margin-left: 35px;
+        height: 40px;
+        width: 100px;
+    outline: none;
+    color: purple;
     font-weight: bold;
 
     }
     
 
 
-    
-    .next{
-        color: cadetblue;
+
+
+
+
+
+
+    /* FRONT PAGE */
+
+    .subject-btn{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    border-style: none;
+    outline: none;
+    }
+
+    .sub-name{
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+        font-family: Chilanka;
+    }
+
+    .subject-btn:hover{
+        background-color: #40145f;
+    }
+    .sub-name:hover{
+        color: white !important;
+    }
+    .hd{
+    border-bottom: 2px solid white;
+
+        height: 90px;
+        background-color: #69347f;
+    }
+
+    .quiz-hd-front{
+        font-size: 40px !important;
+        font-family: Dancing Script;
+        padding-left: 30px;
+        padding-top: 20px;
+        color: white;
     }
